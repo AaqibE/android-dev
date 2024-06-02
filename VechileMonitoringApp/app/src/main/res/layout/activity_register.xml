@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/form_bg1">
+
+
+    <TextView
+        android:id="@+id/tvFormTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register your vehicle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Name"
+        android:background="@drawable/edit_text_bg"/>
+
+    <EditText
+        android:id="@+id/etModelNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model Number"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        />
+
+    <EditText
+        android:id="@+id/etChassisNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chassis Number"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+
+        />
+
+    <EditText
+        android:id="@+id/etVehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Type (e.g., Car, Bike)"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+</LinearLayout>
